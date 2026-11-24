@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DummyJSON - Usuários e Produtos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f9;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .card {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 10px;
+      text-align: center;
+      width: 300px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .card img {
+      max-width: 140px;
+      height: 140px;
+      object-fit: contain;
+      border-radius: 6px;
+      margin-bottom: 10px;
+    }
+
+    .card h3 {
+      margin: 10px 0 5px;
+      font-size: 1.2rem;
+    }
+
+    .card h4 {
+      margin: 5px 0 15px;
+      color: #666;
+      font-weight: normal;
+    }
+
+    .card p {
+      margin: 6px 0;
+      font-size: 0.95rem;
+    }
+
+    .preco {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #28a745;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Usuários</h1>
+  <hr>
+  <div id="user-container" class="container"></div>
+
+  <h1>Produtos</h1>
+  <hr>
+  <div id="product-container" class="container"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
